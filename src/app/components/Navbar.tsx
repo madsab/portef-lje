@@ -1,15 +1,30 @@
-import Link from "next/link"
+import MobileNavLinks from "./MobileNavLinks"
+import NavLinks from "./NavLinks"
 
+const navLinks = [
+  {
+    title: "About",
+    href: "#about",
+  },
+  {
+    title: "Experience",
+    href: "#experience",
+  },
+  {
+    title: "Projects",
+    href: "#projects",
+  },
+  {
+    title: "Contact",
+    href: "#contact",
+  },
+]
 export function Navbar() {
   return (
-    <div className="flex p-3">
+    <div className="flex p-3 w-full">
       <p className="grow font-bold text-4xl">Portfolio</p>
-      <div className="grow flex justify-end gap-6 text-2xl">
-        <Link href={"#about"}>About</Link>
-        <Link href={"#experience"}>Experience</Link>
-        <Link href={"#projects"}>Projects</Link>
-        <Link href={"#contact"}>Contact</Link>
-      </div>
+      <NavLinks links={navLinks} />
+      <MobileNavLinks links={navLinks} />
     </div>
   )
 }

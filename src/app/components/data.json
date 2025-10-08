@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Frontend",
+    "description": "asdaskldjsakldjlsajdj",
+    "icon": "gis:arrow"
+  },
+  {
+    "title": "Backend",
+    "description": "Responsible for server-side logic and integration.",
+    "icon": "gis:server"
+  },
+  {
+    "title": "DevOps",
+    "description": "Ensures smooth deployment and infrastructure management.",
+    "icon": "gis:cloud"
+  },
+  {
+    "title": "UI/UX Design",
+    "number": 4,
+    "description": "Focuses on user experience and interface design.",
+    "icon": "test"
+  }
+]
